@@ -1,7 +1,7 @@
 "use client";
 import React from 'react'
 
-const button = () => {
+const Button = () => {
     const [post, setPosts] = React.useState([])
   return (
     <div>
@@ -12,4 +12,4 @@ const button = () => {
   )
 }
 
-export default button
+export default Button
